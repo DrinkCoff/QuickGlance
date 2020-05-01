@@ -3,6 +3,8 @@
 
 /*global jasmine */
 var SpecReporter = require('jasmine-spec-reporter');
+var appWebUrl = 'https://quick-glance.herokuapp.com/';
+var appLocalUrl = 'http://localhost:4200/';
 
 exports.config = {
   allScriptsTimeout: 11000,
@@ -13,7 +15,7 @@ exports.config = {
     'browserName': 'chrome'
   },
   directConnect: true,
-  baseUrl: 'http://localhost:4200/',
+  baseUrl: appWebUrl,
   framework: 'jasmine',
   jasmineNodeOpts: {
     showColors: true,
