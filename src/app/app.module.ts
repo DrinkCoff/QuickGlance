@@ -10,8 +10,8 @@ import { CalendarComponent } from './calendar/calendar.component';
 @NgModule({
   declarations: [
     AppComponent,
-    ClockComponent
-    //CalendarComponent
+    ClockComponent,
+    CalendarComponent
   ],
   imports: [
     BrowserModule,
